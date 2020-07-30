@@ -75,12 +75,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ##### Utilisé dans ce projet
 
-* Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/paths/185/projects/638/assignment "Cliquez pour voir le projet")
+* Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/paths/185/projects/675/assignment "Cliquez pour voir le projet")
 
-* Le site avant optimisation : [La Chouette agence](https://thierry-laval.github.io/la-chouette-agence-v1/)
-
-* Liste à implémenter : [Check-list pour l'accessibilité mobile
-](https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/Checklist_accessibilite_mobile)
 
 | Languages       | et                    | outils     |
 | :-------------: |:-------------:        | :-----:    |
