@@ -22,8 +22,8 @@ Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur 
 * Interagir avec un web service avec JavaScript
 * Valider des données issues de sources externes
 * Créer un plan de test pour une application
-  L'objectif est de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs
- potentiels.
+
+L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
 
 #### 🔨 Prérequis pour pouvoir travailler sur ce projet
 
@@ -33,13 +33,15 @@ Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.
 
 Vous aurez besoin d'avoir `Node` et `npm` installés localement sur votre machine.
 
-Clonez ce dépôt: https://github.com/tiritiritiritiri mettre l'adresse /Orinoco 
+Clonez ce dépôt: https://github.com/thierry-laval/orinoko
 
-À partir du dossier du projet, exécutez `npm install`. 
-Vous pouvez ensuite exécuter le serveur avec `node server`.
-Le serveur doit fonctionner `localhost` avec le port par défaut `3000`.
+À partir du dossier du projet, exécutez`npm install`.
+Vous pouvez ensuite exécuter le serveur avec`node server`.
+Le serveur doit fonctionner en `localhost` avec le port par défaut `3000`.
+localhost:3000
 
-Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est imprimé sur la console au démarrage du serveur, par exemple `Listening on port 3001`.
+Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est imprimé sur la console au démarrage du serveur, par exemple`Listening on port 3001`.
+
 
 Pour pouvoir faire tourner ce site en local, vous devez avoir installé un `serveur http` en `local` comme `http- server`.
 Ligne de commande : `npm install --global http-server`.
@@ -80,9 +82,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 | Languages       | et                    | outils     |
 | :-------------: |:-------------:        | :-----:    |
-| HTML5           | BOOSTRAP              | xxxxxxxxxx |
+| HTML5           | xxxxxxxxx              | xxxxxxxxxx |
 | CSS3            | GIT                   | xxxxxxxxxx |
-| JS              | Google Search console |  xxxxxx    |
+| JS              | xxxxxxxxxxxxxxxxx |  xxxxxx    |
 
 ***
 

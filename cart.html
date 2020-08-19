@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- Developpeur Web: Thierry Laval -->
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Ajouter les balises - Pour le moment je n'ai mis que le minimum-->
+  <meta name="author" content="Thierry Laval">
+  <meta name="Publisher" content="Thierry Laval">
+  <link rel="apple-touch-icon" href="imgages/icone.png">
+  <link rel="icon" type="image/x-icon" href="images/icone.png">
+  <script src="https://kit.fontawesome.com/dd2f274891.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+
+    <script src="cart.js" async></script>
+
+    <title>Orinoco - Panier</title>
+
+  </head>
+
+  <body>
+    <!--Header-->
+    <header class="bg-light">
+      <div class="container">
+        <div class="row">
+          <nav class="col navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="images/logo.orinoco.png"
+                width="150"
+                height="60"
+                alt="Site logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item cart">
+                  <a class="nav-link" href="cart.html">
+                    <i class="fas fa-shopping-basket"></i> Panier
+                    <span>0</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--Main, liste du panier-->
+    <main class="container">
+      <div class="row my-4 headlines"></div>
+      <div class="row products-container border-dark"></div>
+      <div class="card border-dark form-container shadow my-3">
+        <div class="card-header text-center">
+          <h3>Validation de votre commande</h3>
+        </div>
+        <div class="card-body">
+          <form class="form">
+            <div class="form-row my-3">
+              <label for="firstName" class="col-md-1 col-form-label"
+                >Prénom</label
+              >
+              <div class="col-md-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="Prénom"
+                  required
+                />
+              </div>
+              <label for="lastName" class="col-md-1 col-form-label">Nom</label>
+              <div class="col-md-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Nom"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row my-3">
+              <label for="inputEmail" class="col-md-1 col-form-label"
+                >Email</label
+              >
+              <div class="col-md-5">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="exemple@xxxxx.com"
+                  required
+                />
+              </div>
+              <label for="telephoneNumber" class="col-md-1 col-form-label"
+                >Tel</label
+              >
+              <div class="col-md-5">
+                <input
+                  type="tel"
+                  maxlength="10"
+                  class="form-control"
+                  id="telephoneNumber"
+                  placeholder=".........."
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row my-3">
+              <label for="inputAddress" class="col-md-1 col-form-label"
+                >Adresse</label
+              >
+              <div class="col-md-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder=".........."
+                  required
+                />
+              </div>
+              <label for="inputCity" class="col-md-1 col-form-label"
+                >Ville</label
+              >
+              <div class="col-md-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCity"
+                  placeholder=".........."
+                  required
+                />
+              </div>
+              <label for="inputZip" class="col-md-2 col-form-label"
+                >Code Postal</label
+              >
+              <div class="col-md-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputZip"
+                  placeholder="....."
+                  required
+                />
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-danger order-submit">
+                Envoyer mes informations
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <a
+        href="confirm.html"
+        class="btn btn-primary col-6 offset-3 col-md-4 offset-md-4 my-4 disabled"
+        >Validation de ma commande</a
+      >
+    </main>
+
+ <!--Mettre les script dans l'ordre suivant jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+  </body>
+  
+</html>
