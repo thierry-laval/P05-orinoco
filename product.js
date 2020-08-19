@@ -76,11 +76,11 @@ let chosenColor = document.querySelector("select");
 class Bear {
   constructor(image, name, description, price, color, iD) {
     (this.image = image),
-      (this.name = name),
-      (this.description = description),
-      (this.price = price),
-      (this.color = color),
-      (this.iD = iD);
+    (this.name = name),
+    (this.description = description),
+    (this.price = price),
+    (this.color = color),
+    (this.iD = iD);
   }
 }
 

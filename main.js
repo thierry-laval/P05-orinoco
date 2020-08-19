@@ -16,7 +16,7 @@ let get = function (url) {
   });
 };
 
-/**********CREATION DE LA PAGE LISTE EN JS *********/
+/*CREATION DE LA PAGE LISTE EN JS*/
 
 //appelle de la fonction
 get("http://localhost:3000/api/teddies/")
@@ -32,7 +32,7 @@ get("http://localhost:3000/api/teddies/")
       let teddyDisplay = document.querySelector(".teddies");
 
       //création des cartes listant les produits
-      teddyDisplay.innerHTML += `      
+      teddyDisplay.innerHTML += `
           <div class="card mb-2 m-md-3 mb-lg-0 border-dark shadow-lg col-10 offset-1 col-md-4 col-lg-3">
             <img
             class="card-img-top"
@@ -49,7 +49,7 @@ get("http://localhost:3000/api/teddies/")
             <div class="card-footer text-center">
               <a href="product.html" class="btn btn-primary description-link stretched-link">Description</a>
             </div>
-          </div>  
+          </div>
       `;
     }
     let descriptionLinks = document.querySelectorAll(".description-link"); //Création un sélecteur js des lien de description

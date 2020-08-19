@@ -20,9 +20,9 @@ nameGet = JSON.parse(nameGet);
 nameDisplay.textContent = `${nameGet.contact.firstName} ${nameGet.contact.lastName}`;
 for (const BuyedBear of recapOrder) {
   recapDisplay.textContent += `
-Un adorable ourson nommé ${BuyedBear.name} dont la couleur est ${
+Un petit ours, appelé ${BuyedBear.name} de couleur ${
     BuyedBear.color
-  } et dont le prix unitaire est de ${BuyedBear.price / 100},00 €.
+  } pour le prix de ${BuyedBear.price / 100},00 €.
 `;
 }
 

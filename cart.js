@@ -18,7 +18,7 @@ let headlines = document.querySelector(".headlines");
 //affichage des produits
 if (productsInCart == null) {
   productsContainer.innerHTML = `
-  <h4 class="font-italic col-12 text-center">Votre panier est vide</h4> 
+  <h4 class="font-italic col-12 text-center">Votre panier est vide</h4>
   `;
   let formContainer = document.querySelector(".form-container");
   formContainer.classList.add("d-none");
@@ -139,7 +139,7 @@ orderButton.addEventListener("click", function (event) {
     .then((res) => {
       if (res.ok) {
         alert(
-          "Vos informations ont bien été enregistrées. Vous pouvez à présent valider votre commande"
+          "Vos informations sont enregistrées. Vous pouvez valider cette commande"
         );
         validationButton.classList.remove("disabled");
         return res.json();

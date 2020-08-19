@@ -3962,7 +3962,7 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  padding-left: 20%;
+
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
