@@ -139,7 +139,7 @@ orderButton.addEventListener("click", function (event) {
     .then((res) => {
       if (res.ok) {
         alert(
-          "Informations enregistrées. Cliquez sur [Valider la commande]"
+          "Informations enregistrées. Cliquez sur [Valider la commande]."
         );
         validationButton.classList.remove("disabled");
         return res.json();
