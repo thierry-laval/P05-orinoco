@@ -139,12 +139,12 @@ orderButton.addEventListener("click", function (event) {
     .then((res) => {
       if (res.ok) {
         alert(
-          "Vos informations sont enregistrées. Vous pouvez valider cette commande"
+          "Informations enregistrées. Cliquez sur [Valider la commande]"
         );
         validationButton.classList.remove("disabled");
         return res.json();
       } else {
-        alert("Vous devez renseigner les champs.");
+        alert("Vous devez renseigner tous les champs.");
       }
     })
     .then((data) => {

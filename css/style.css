@@ -592,6 +592,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  padding-block-end: 10px;
 }
 
 .no-gutters {
@@ -2458,8 +2459,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #ff6702;
+  border-color: #020202;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -3977,6 +3978,7 @@ input[type=button].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  text-shadow: 1px 1px 1px rgb(3, 3, 3);
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -9911,14 +9913,23 @@ h3 {
   }
 }
 #navbarContent {
-  /*display: flex;*/
+  /*display: flex; - pour permettre au menu de rester fermer en mobile*/
   justify-content: flex-end;
 }
 
 .titre-footer {
-  color: #030303;
-  font-weight: 600;
-
+  /*color: #ffffff;
+  font-weight: 400;
+  border: solid 1px #ff6702;
+  background-color : #ff6702a2;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);*/
+  color: #ff6702;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 
