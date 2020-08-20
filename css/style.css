@@ -152,12 +152,12 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #fd7e14;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #b35700;
   text-decoration: underline;
 }
 
@@ -6554,6 +6554,7 @@ button.bg-dark:focus {
 
 .justify-content-between {
   justify-content: space-between !important;
+  padding: 20px;
 }
 
 .justify-content-around {
@@ -9913,5 +9914,12 @@ h3 {
   /*display: flex;*/
   justify-content: flex-end;
 }
+
+.titre-footer {
+  color: #030303;
+  font-weight: 600;
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
