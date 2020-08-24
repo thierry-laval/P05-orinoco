@@ -76,10 +76,10 @@ Ligne de commande : `npm install --global http-server`.
 * Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/paths/185/projects/675/assignment "Cliquez pour voir le projet")
 
 | Languages       | et                    | outils     |
-| :-------------: |:Node.js:           | :NPM (Node Package Manager):    |
-| HTML5           | Visual Studio Code | xxxxxxxxxx |
-| CSS3            | Git/GitHub         | xxxxxxxxxx |
-| JavaScript      | xxxxxxxxxxxxxxxxx  |  xxxxxx    |
+| :-------------: |:Node.js:        | :Npm:    |
+| HTML5           | Visual Studio Code              | xxxxxxxxxx |
+| CSS3            | Git/GitHub                   | xxxxxxxxxx |
+| JavaScript             | xxxxxxxxxxxxxxxxx |  xxxxxx    |
 
 ***
 
