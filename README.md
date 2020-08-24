@@ -86,10 +86,9 @@ Ligne de commande : `npm install --global http-server`.
 
 ### 🚦Les documents de présentation
 
-→ [Google doc en ligne](https://)\
-→ [doc en ligne](https://)\
-→ \
-→
+→ [Voir le dépot sur Github](https://github.com/thierry-laval/orinoko)\
+→ [Voir le plan de test en ligne](https://)\
+→ [Voir l'organigramme en ligne](https://drive.google.com/file/d/1a8wuXU_-vSKqmll1vVixPPevc7gfndn8/view?usp=sharing)
 
 ***
 <p>&hearts; Love Markdown<p>
