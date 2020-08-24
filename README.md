@@ -42,11 +42,12 @@ localhost:3000
 
 Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est imprimé sur la console au démarrage du serveur, par exemple`Listening on port 3001`.
 
-
 Pour pouvoir faire tourner ce site en local, vous devez avoir installé un `serveur http` en `local` comme `http- server`.
 Ligne de commande : `npm install --global http-server`.
 
-En résumé, pour faire fonctionner ce site, cloner ce repo puis taper en ligne de commande `node server` puis `http-server`.
+### En résumé ###
+
+Pour faire fonctionner ce site, cloner ce repo puis taper en ligne de commande `node server` puis `http-server`.
 
 #### Page d’accueil du site
 
