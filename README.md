@@ -67,7 +67,7 @@ Ligne de commande : `npm install --global http-server`.
 
 #### Page d’accueil du site
 
-## QUESTION Puis je ouvrir directement le repo sur github ??? ##
+* QUESTION Puis je ouvrir directement le repo sur github ???
 
 ***
 
@@ -75,12 +75,11 @@ Ligne de commande : `npm install --global http-server`.
 
 * Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/paths/185/projects/675/assignment "Cliquez pour voir le projet")
 
-
 | Languages       | et                    | outils     |
-| :-------------: |:-------------:        | :-----:    |
-| HTML5           | xxxxxxxxx              | xxxxxxxxxx |
-| CSS3            | GIT                   | xxxxxxxxxx |
-| JS              | xxxxxxxxxxxxxxxxx |  xxxxxx    |
+| :-------------: |:Node.js:           | :NPM (Node Package Manager):    |
+| HTML5           | Visual Studio Code | xxxxxxxxxx |
+| CSS3            | Git/GitHub         | xxxxxxxxxx |
+| JavaScript      | xxxxxxxxxxxxxxxxx  |  xxxxxx    |
 
 ***
 
