@@ -15,6 +15,7 @@ _`Début de formation le 20/04/2020`_
 ***
 
 Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur la création d’un site e- commerce pour la partie front-end.
+L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
 
 ### Objectifs
 
@@ -29,8 +30,6 @@ Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur 
 * Gérer des événements JavaScript
 * Créer un plan de test pour une application
 * Interagir avec un web service avec JavaScript
-
-L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
 
 ### Livrables
 
