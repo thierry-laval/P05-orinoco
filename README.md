@@ -45,7 +45,7 @@ Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.
 
 Vous aurez besoin d'avoir `Node` et `npm` installés localement sur votre machine.
 
-Clonez ce dépôt: https://github.com/thierry-laval/orinoko
+Clonez ce dépôt: https://github.com/thierry-laval/orinoco
 
 À partir du dossier du projet, exécutez`npm install`.
 Vous pouvez ensuite exécuter le serveur avec`node server`.
@@ -86,7 +86,7 @@ Ligne de commande : `npm install --global http-server`.
 
 ### 🚦Les documents de présentation
 
-→ [Voir le dépot sur Github](https://github.com/thierry-laval/orinoko)\
+→ [Voir le dépot sur Github](https://github.com/thierry-laval/orinoco)\
 → [Voir le plan de test en ligne](https://)\
 → [Voir l'organigramme en ligne](https://drive.google.com/file/d/1a8wuXU_-vSKqmll1vVixPPevc7gfndn8/view?usp=sharing)
 
