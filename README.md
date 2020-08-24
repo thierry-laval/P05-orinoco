@@ -11,7 +11,7 @@ _`Début de formation le 20/04/2020`_
 
 ***
 ## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
-![left 100%](https://github.com/thierry-laval/thierry-laval/blob/master/images/logo.orinoco.png)
+![left 50%](https://github.com/thierry-laval/thierry-laval/blob/master/images/logo.orinoco.png)
 
 ***
 
@@ -24,11 +24,16 @@ Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur 
 * Valider des données issues de sources externes
 * Créer un plan de test pour une application
 
+### Compétences évalué
+
+* Valider des données issues de sources externes
+* Gérer des événements JavaScript
+* Créer un plan de test pour une application
+* Interagir avec un web service avec JavaScript
+
 L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
 
-#### 🔨 Prérequis pour pouvoir travailler sur ce projet
-
-### Installation ###
+## 🔨 Installation ##
 
 Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.
 
@@ -46,20 +51,17 @@ Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est 
 Pour pouvoir faire tourner ce site en local, vous devez avoir installé un `serveur http` en `local` comme `http- server`.
 Ligne de commande : `npm install --global http-server`.
 
-### En résumé ###
+### 🔨 En résumé ###
 
-Pour faire fonctionner ce site, cloner ce repo puis taper en ligne de commande `node server` puis `http-server`.
+Pour faire fonctionner ce site.
+Cloner ce repo.
+Ouvrir le terminal sur le dossier du site.
+Tapez en ligne de commande `node server` puis `http-server`.
+Ouvrez index.html (page d'accueil).
 
 #### Page d’accueil du site
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-##### Compétences évalué
-
-* Valider des données issues de sources externes
-* Gérer des événements JavaScript
-* Créer un plan de test pour une application
-* Interagir avec un web service avec JavaScript
+## QUESTION Puis je ouvrir directement le repo sur github ??? ##
 
 ***
 
