@@ -12,7 +12,6 @@ _`Début de formation le 20/04/2020`_
 ***
 ## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
 ![left 100%](https://github.com/thierry-laval/archives/blob/master/images/logo.orinoco.png?raw=true)
-
 ***
 
 Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur la création d’un site e- commerce pour la partie front-end.
@@ -32,6 +31,14 @@ Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur 
 * Interagir avec un web service avec JavaScript
 
 L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
+
+### Livrables
+
+* Le lien vers un dépôt Git public contenant le code de l'application web.
+* Le mentor et l'évaluateur doivent être en mesure de cloner le référentiel, d'ouvrir index.html, d'utiliser l'application entièrement opérationnelle et de confirmer que n’importe quel input utilisateur est validé.
+* Un plan de tests.
+
+***
 
 ## 🔨 Installation ##
 
@@ -62,20 +69,6 @@ Ligne de commande : `npm install --global http-server`.
 #### Page d’accueil du site
 
 ## QUESTION Puis je ouvrir directement le repo sur github ??? ##
-
-***
-
-##### Livrables
-
-* Le lien vers un dépôt Git public contenant le code de l'application web.
-
-* Le mentor et l'évaluateur doivent être en mesure de cloner le référentiel, d'ouvrir index.html, d'utiliser l'application entièrement opérationnelle et de confirmer que n’importe quel input utilisateur est validé.
-
-* Un plan de tests.
-
-***
-
-##### Travail réalisé
 
 ***
 
