@@ -11,7 +11,7 @@ _`Début de formation le 20/04/2020`_
 
 ***
 ## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
-![left 50%](https://github.com/thierry-laval/thierry-laval/blob/master/images/logo.orinoco.png)
+![left 100%](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true)
 
 ***
 
@@ -53,11 +53,11 @@ Ligne de commande : `npm install --global http-server`.
 
 ### 🔨 En résumé ###
 
-Pour faire fonctionner ce site.
-Cloner ce repo.
-Ouvrir le terminal sur le dossier du site.
-Tapez en ligne de commande `node server` puis `http-server`.
-Ouvrez index.html (page d'accueil).
+* Pour faire fonctionner ce site
+* Cloner ce repo
+* Ouvrir le terminal sur le dossier du site
+* Tapez en ligne de commande `node server` puis `http-server`
+* Ouvrez index.html (page d'accueil)
 
 #### Page d’accueil du site
 
