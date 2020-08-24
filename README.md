@@ -11,7 +11,7 @@ _`Début de formation le 20/04/2020`_
 
 ***
 ## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
-![left 100%](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true)
+![left 100%](https://github.com/thierry-laval/archives/blob/master/images/logo.orinoco.png?raw=true)
 
 ***
 
