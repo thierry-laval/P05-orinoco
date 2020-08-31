@@ -17,25 +17,18 @@ _`Début de formation le 20/04/2020`_
 Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur la création d’un site e- commerce pour la partie front-end.<br>
 L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
 
-### Objectifs
+### Objectifs et Compétences évalué
 
 * Gérer des événements JavaScript
 * Interagir avec un web service avec JavaScript
 * Valider des données issues de sources externes
 * Créer un plan de test pour une application
-
-### Compétences évalué
-
-* Valider des données issues de sources externes
-* Gérer des événements JavaScript
-* Créer un plan de test pour une application
-* Interagir avec un web service avec JavaScript
 
 ### Livrables
 
-* Le lien vers un dépôt Git public contenant le code de l'application web.
-* Le mentor et l'évaluateur doivent être en mesure de cloner le référentiel, d'ouvrir index.html, d'utiliser l'application entièrement opérationnelle et de confirmer que n’importe quel input utilisateur est validé.
-* Un plan de tests.
+* 1 -  Le lien vers un dépôt Git public contenant le code de l'application web.
+<br>(Le mentor et l'évaluateur doivent être en mesure de `cloner le référentiel`, `d'ouvrir index.html`, d'utiliser l'application entièrement opérationnelle et de confirmer que n’importe quel input utilisateur est validé.)
+* 2 - Un plan de tests.
 
 ***
 
@@ -57,9 +50,8 @@ Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est 
 Pour pouvoir faire tourner ce site en local, vous devez avoir installé un `serveur http` en `local` comme `http- server`.
 Ligne de commande : `npm install --global http-server`.
 
-### 🔨 En résumé ###
+### 🔨 En résumé, pour faire fonctionner ce site ###
 
-* Pour faire fonctionner ce site
 * Cloner ce repo
 * Ouvrir le terminal sur le dossier du site
 * Tapez en ligne de commande `node server`
