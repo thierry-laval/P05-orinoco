@@ -1,21 +1,32 @@
 {
   "name": "orinoco-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back end du Projet 5 openclassrooms",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./dev/sass/style.scss:./style.css",
+    "prefix": "postcss ./P5_DUCHER_FRED/css/style.css --use autoprefixer -d./P5_DUCHER_FRED/css/prefixed/"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fred-devproject/P5_DUCHER_FRED.git"
+  },
+  "author": "DUCHER FRED",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fred-devproject/P5_DUCHER_FRED/issues"
+  },
+  "homepage": "https://github.com/fred-devproject/P5_DUCHER_FRED#readme",
+  "browserslist": "last 4 versions",
   "dependencies": {
     "bcrypt": "^3.0.8",
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "jshint": "^2.12.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.9.26",
+    "mongoose": "^5.3.8",
     "mongoose-unique-validator": "^2.0.2",
-    "uuid": "^3.4.0"
+    "node-fetch": "^2.6.0",
+    "uuid": "^3.3.2"
   }
 }

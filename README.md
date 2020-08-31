@@ -62,12 +62,8 @@ Ligne de commande : `npm install --global http-server`.
 * Pour faire fonctionner ce site
 * Cloner ce repo
 * Ouvrir le terminal sur le dossier du site
-* Tapez en ligne de commande `node server` puis `http-server`
+* Tapez en ligne de commande `node server`
 * Ouvrez index.html (page d'accueil)
-
-#### Page d’accueil du site
-
-* ###### QUESTION : Puis je ouvrir directement le repo sur github ?
 
 ***
 
@@ -80,7 +76,7 @@ Ligne de commande : `npm install --global http-server`.
 | :-------------: |:-------------:        | :-----:    |
 | HTML5           | Node.js              | NPM (Node Package Manager) |
 | CSS3            | Git/GitHub                   | xXx |
-| Java-script              | xXx |  Visual Studio Code    |
+| Java-script              | Sass |  Visual Studio Code    |
 
 ***
 
