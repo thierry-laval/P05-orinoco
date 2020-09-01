@@ -79,3 +79,4 @@ async function objectsList(){
         btnElt.setAttribute('href', './pages/product.html?id=' + teddy._id);
     };
 };
+

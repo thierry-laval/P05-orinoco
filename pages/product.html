@@ -8,33 +8,36 @@
     <!--Ajouter les balises - Pour le moment je n'ai mis que le minimum-->
     <meta name="author" content="Thierry Laval" />
     <meta name="Publisher" content="Thierry Laval" />
-    <meta name='description'
-        content='La page produit' />
+    <meta name='description' content='La page produit' />
     <link rel="apple-touch-icon" href="./favicon.ico" />
     <link rel="icon" href="./favicon.ico" />
     <title>Orinoco - Page produit</title>
 
     <link rel="stylesheet" href="../style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Old+Standard+TT:ital@1&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="../favicon.ico" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../front_js/product.js" defer></script>
-	<script>
-    $(document).ready(function(){
-        
-        objectSelected();
-        addtoStorage();
-    });
-	</script> 
+    <script>
+        $(document).ready(function () {
+
+            objectSelected();
+            addtoStorage();
+        });
+    </script>
 </head>
+
 <body>
     <header id="header">
-        <h1><a href="../index.html"><img src="../images/logo_orinoco.png" class="img-fluid"
-            alt="Logo du site" /></a></h1>
+        <h1><a href="../index.html"><img src="../images/logo_orinoco.png" class="img-fluid" alt="Logo du site" /></a>
+        </h1>
     </header>
     <nav class="navtop">
+        <a href="../index.html" class="navtop__link">Accueil</a>
         <a href="./panier.html" class="navtop__link">Panier</a>
+        <a href="" class="navtop__link">Mon compte</a>
     </nav>
     <main id="mainbloc">
         <div class="bloc1">
@@ -76,10 +79,11 @@
             <a href="./mentions.html" class="navtbot__link">Mentions légales</a>
             <a href="mailto:contact@orinoco.com" class="navbot__link">Contact</a>
         </nav>
-        
+
     </footer>
 
-    
-    
+
+
 </body>
+
 </html>
