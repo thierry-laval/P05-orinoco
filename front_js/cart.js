@@ -33,7 +33,7 @@ loadCartPage = ()=>{
                 const itemQuantity = itemInCart.teddyQuantity;
                 const itemColor = itemInCart.teddyColor;
                 const itemPrice = ((itemInCart.teddySubTotal / 100)+"€");
-                        
+
                 let row = cartBloc.insertRow(-1);
 
                 let nameCell = row.insertCell(0);

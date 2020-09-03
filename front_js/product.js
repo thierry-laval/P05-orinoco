@@ -33,7 +33,7 @@ getApiData = () =>{
 		let requestOptions = {
             method: 'GET', // utilisation de la methode GET
             redirect: 'follow'
-        };  
+        };
         fetch((URL + idParams) , requestOptions)
         .then(response => response.json())
         .then(result => objectSelected(result))
@@ -61,16 +61,16 @@ async function objectSelected(){
 
     // creation des éléments du DOM necessaire a l'affichage du produit
     let nameElt = document.createElement('h3');
-    let picElt = document.createElement('img') ;       
-    let descriptionElt = document.createElement('p');    
+    let picElt = document.createElement('img') ;
+    let descriptionElt = document.createElement('p');
     let priceElt = document.createElement('p');
-    
+
     teddyBlocElt.appendChild(nameElt);
     teddyBlocElt.appendChild(picElt);
     teddyBlocElt.appendChild(descriptionElt);
     teddyBlocElt.appendChild(priceElt);
-    
-    // ajout d'une class au bloc price 
+
+    // ajout d'une class au bloc price
     priceElt.classList.add ('bloc2__item--price');
 
     // recuperation des valeur necessaire à l'affichage dans les élément créés
@@ -78,7 +78,7 @@ async function objectSelected(){
     picElt.src = oneTeddy.imageUrl ;
     descriptionElt.textContent = (oneTeddy.description);
     priceElt.textContent = ("Prix:" + " " + oneTeddy.price/100 + " " + "€");
-        
+
     // création du menu déroulant pour la selection des options du produit
     let colorsOption = oneTeddy.colors;
 
@@ -86,14 +86,14 @@ async function objectSelected(){
         let colorChoice = document.createElement('option')
         colorChoice.setAttribute
         document.getElementById("options").appendChild(colorChoice).innerHTML = colors;
-    });    
+    });
 };
-  
-//Fonction ajouter le produit au panier de l'utilisateur 
+
+//Fonction ajouter le produit au panier de l'utilisateur
 addtoStorage = ()=>{
     //Ecouter l'événement clic pour mettre le produit dans le local.storage
     let getInCart = document.getElementById("addtocart__btn");
-                
+
     getInCart.addEventListener("click", async function() {
         //reutilisation de la variable idParams qui correspond aussi à la key de l'objet stocké dans le session storage
         let teddyInCache_json = sessionStorage.getItem(idParams);
@@ -102,15 +102,15 @@ addtoStorage = ()=>{
         let teddyId = teddyInCache._id;
         let teddyName = teddyInCache.name;
         let teddyPrice = teddyInCache.price;
-         
+
         // Recuperation des options des blocs select pour la quantité et la couleur
         let selectQuantity = document.getElementById("productQuantity");
-        // transformation en type number de la valeur recuperé en type string 
+        // transformation en type number de la valeur recuperé en type string
         let teddyQuantity = parseInt(selectQuantity.options[selectQuantity.selectedIndex].value);
         let selectColor = document.getElementById("options");
         let teddyColor = selectColor.options[selectColor.selectedIndex].text;
         let teddySubTotal = teddyQuantity*teddyPrice;
-        
+
         //Récupération du panier dans le localStorage et ajout du produit dans le panier avant renvoi dans le localStorage
         userCart.push({teddyId, teddyName, teddyPrice, teddyQuantity, teddyColor, teddySubTotal});
         localStorage.setItem("userCart", JSON.stringify(userCart));
