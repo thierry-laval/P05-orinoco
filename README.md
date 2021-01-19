@@ -79,4 +79,21 @@ Ligne de commande : `npm install --global http-server`.
 → [Voir l'organigramme en ligne](https://drive.google.com/file/d/1WRYo4M2BiBcE1Orr_zWAwWvL5BGKYDRV/view?usp=sharing)
 
 ***
+
+### 📝 &nbsp; License
+
+Copyright © 2020 [Thierry Laval](https://github.com/thierry-laval).
+
+Ce projet est sous licence [MIT](orinoco/LICENCE).
+
+[Voir mon travail]: <InsertUrl>
+
+[Template]: <InsertUrl>
+
+[Git project]: https://github.com/thierry-laval/orinoco
+
+***
+
+Donnez une ⭐️ &nbsp; si ce projet vous a plu !
+
 <p>&hearts; Love Markdown<p>
