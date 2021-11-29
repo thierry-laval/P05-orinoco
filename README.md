@@ -11,7 +11,9 @@ _`Début de formation le 20/04/2020`_
 * Visitez ==> 🏠 [Site Web](https://thierrylaval.dev)
 
 ***
-## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
+
+## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce
+
 ![left 100%](https://github.com/thierry-laval/archives/blob/master/images/logo.orinoco.png?raw=true)
 ***
 
@@ -35,9 +37,9 @@ L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des
 
 ***
 
-## 🔨 Installation ##
+### 🔨 Installation
 
-Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.
+Les fichiers du back-end du serveur pour le projet sont présents dans ce repo.
 
 Vous aurez besoin d'avoir `Node` et `npm` installés localement sur votre machine.
 
@@ -53,7 +55,7 @@ Si le serveur fonctionne sur un autre port pour une raison quelconque, cela est 
 Pour pouvoir faire tourner ce site en local, vous devez avoir installé un `serveur http` en `local` comme `http- server`.
 Ligne de commande : `npm install --global http-server`.
 
-### 🔨 En résumé, pour faire fonctionner ce site ###
+### 🔨 En résumé, pour faire fonctionner ce site
 
 * Cloner ce repo
 * Ouvrir le terminal sur le dossier du site
@@ -62,12 +64,11 @@ Ligne de commande : `npm install --global http-server`.
 
 ***
 
-##### Utilisé dans ce projet
+#### Utilisé dans ce projet
 
 * Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/paths/185/projects/675/assignment "Cliquez pour voir le projet")
 
-
-| Languages       | et                    | outils     |
+| Langages       | et                    | outils     |
 | :-------------: |:-------------:        | :-----:    |
 | HTML5           | Node.js              | NPM (Node Package Manager) |
 | CSS3            | Git/GitHub                   | xXx |
@@ -77,7 +78,7 @@ Ligne de commande : `npm install --global http-server`.
 
 ### 🚦Les documents de présentation
 
-→ [Voir le lien vers le dépot sur Github](https://drive.google.com/file/d/15ZtzxdEgrzaluYqR7x6mV1oZW05IKXhT/view?usp=sharing)\
+→ [Voir le lien vers le dépôt sur Github](https://drive.google.com/file/d/15ZtzxdEgrzaluYqR7x6mV1oZW05IKXhT/view?usp=sharing)\
 → [Voir le plan de test en ligne](https://drive.google.com/file/d/1YTPd-akGpsQenxagnjSoEQtlFq0F3sIL/view?usp=sharing)\
 → [Voir l'organigramme en ligne](https://drive.google.com/file/d/1WRYo4M2BiBcE1Orr_zWAwWvL5BGKYDRV/view?usp=sharing)
 
