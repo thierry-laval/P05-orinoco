@@ -2,12 +2,13 @@
 
 _`Début de formation le 20/04/2020`_
 
-### Auteur
+## Auteur
 
-👤 **Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<thierrylaval@gmx.com>)
+👤 &nbsp; **Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<thierrylaval@gmx.com>)
 
 * Github: [@Thierry Laval](https://github.com/thierry-laval)
 * LinkedIn: [@Thierry Laval](https://www.linkedin.com/in/thierry-laval)
+* Visitez ==> 🏠 [Site Web](https://thierrylaval.dev)
 
 ***
 ## 📎 Projet 5 - Création de la partie front-end d’un site e-commerce.
@@ -16,6 +17,8 @@ _`Début de formation le 20/04/2020`_
 
 Le sujet du projet 5 du parcours Développeur web chez Openclassrooms porte sur la création d’un site e- commerce pour la partie front-end.<br>
 L'objectif étant de créer un premier MVP pour démontrer le fonctionnement des applications à des investisseurs potentiels.
+
+* 👀  &nbsp; Voir : [Le projet sur OpenClassrooms](https://openclassrooms.com/fr/projects/676/assignment "Cliquez pour voir le projet")
 
 ### Objectifs et Compétences évalué
 
