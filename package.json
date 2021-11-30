@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thierry-laval/orinoco.git"
+    "url": "git+https://github.com/thierry-laval/P05-orinoco.git"
   },
   "author": "Thierry Laval",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thierry-laval/orinoco/issues"
+    "url": "https://github.com/thierry-laval/P05-orinoco/issues"
   },
-  "homepage": "https://github.com/thierry-laval/orinoco#readme"
+  "homepage": "https://github.com/thierry-laval/P05-orinoco#readme"
 }
