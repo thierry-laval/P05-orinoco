@@ -1,2 +1,20 @@
 
+# Dependency
+node_modules
+
+# Git config
+.git
+
+# IDE config
+.vscode
+
+# OSX
 .DS_Store
+back/.DS_Store
+front/.DS_Store
+
+# dist config
+dist
+
+# Eslint cache
+.eslintcache
